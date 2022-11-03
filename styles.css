@@ -179,7 +179,12 @@
     display: flex;
     justify-content: space-around;
     font-size: 20px;
+    cursor: pointer;
     
+    
+}
+.CHECKBOX1 :hover{
+    cursor: pointer;
 }
 .CHECKBOX2{
     
@@ -187,6 +192,11 @@
     display: flex;
     justify-content: space-around;
     font-size: 20px;
+    cursor: pointer;
+}
+.CHECKBOX2 :hover{
+    cursor: pointer;
+    
 
 }
  
@@ -198,7 +208,13 @@
    padding-top:5PX;
    height: 35px;
    border-radius: 50px;
+   
 }
+.SEARCH :hover{
+    cursor: pointer;
+    
+}
+
 .logbackground{
     background-image: url(https://images.unsplash.com/photo-1619739629174-329d234ebd51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3RlYW0lMjB0cmFpbnxlbnwwfHwwfHw%3D&w=1000&q=80);
     background-size: cover;
@@ -231,6 +247,8 @@
     
     
  }
+ 
+ 
  .loginbox input{
     width: 300px;
     height: 30px;
@@ -253,6 +271,7 @@
  .submitbut :hover{
     color: blue;
     background-color: brown;
+    cursor: pointer;
  }
  
 .rback{
